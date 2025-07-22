@@ -1,0 +1,7 @@
+[build]
+  command = "npm install && node generate.js"
+  publish = "out"
+
+[build.environment]
+  # Указываем Puppeteer не скачивать браузер, а использовать тот, что есть в Netlify
+  PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = "true"
