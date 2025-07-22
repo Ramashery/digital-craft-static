@@ -1,0 +1,14 @@
+{
+  "name": "netlify-static-generator",
+  "version": "1.0.0",
+  "description": "Static site generator using Puppeteer on Netlify",
+  "main": "generate.js",
+  "scripts": {
+    "start": "node generate.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "19.7.2",
+    "chrome-aws-lambda": "10.1.0",
+    "serve-handler": "^6.1.5"
+  }
+}
