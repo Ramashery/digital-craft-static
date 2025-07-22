@@ -1,0 +1,14 @@
+{
+  "name": "digital-craft-static-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "node generate.js"
+  },
+  "dependencies": {
+    "puppeteer": "^19.0.0",
+    "serve-handler": "^6.1.5"
+  }
+}
